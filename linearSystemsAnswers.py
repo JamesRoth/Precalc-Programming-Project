@@ -11,5 +11,5 @@ f=float(input("Enter F (for Ax + By = C):"))
 
 y=((f*a)-(d*c))/((e*a)-(d*b))
 x=(c-(b*y))/a
-#NOT WORKING
-print("NOT WORKING?    X:",x,"Y:", y)
+
+print("X:",x,"Y:", y)
