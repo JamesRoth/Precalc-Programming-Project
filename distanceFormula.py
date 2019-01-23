@@ -9,4 +9,4 @@ y2=float(input("Enter y2:"))
 
 ans=(((y1-y2)**2)+((x1-x2)**2))**0.5
 
-print("The distance is:", ans)
+print("The distance is:", round(ans,3))
