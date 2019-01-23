@@ -11,4 +11,4 @@ finalAmount=float(input("Enter the final amount you want:"))
 
 ans=log(finalAmount/startingAmount)*compoundTimes/log(1+(interestRate/compoundTimes)
 
-print("To grow from", startingAmount," to", finalAmount, " it will take", ans," years")
+print(str("To grow from", startingAmount," to", finalAmount, " it will take", ans," years"))
