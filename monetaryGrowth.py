@@ -9,6 +9,6 @@ interestRate=float(input("Enter the interest rate:"))
 compoundTimes=int(input("Enter the times compounded per year:"))
 finalAmount=float(input("Enter the final amount you want:"))
 
-ans=log(finalAmount/startingAmount)*compoundTimes/log(1+(interestRate/compoundTimes)
+ans=log(finalAmount/startingAmount)*compoundTimes/log(1+(interestRate/compoundTimes))
 
-print("To grow from", startingAmount," to", finalAmount, " it will take", ans," years")
+#print("To grow from", startingAmount," to", finalAmount, " it will take", ans," years")
