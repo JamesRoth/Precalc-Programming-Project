@@ -11,3 +11,5 @@ x3=float(input("Enter x3:"))
 a=y1
 b=y2/a
 x=(x3-x1)/(x2-x1)
+
+ans=a*b**x
