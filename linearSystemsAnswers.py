@@ -10,6 +10,6 @@ e=float(input("Enter E (for Ax + By = C):"))
 f=float(input("Enter F (for Ax + By = C):"))
 
 y=(f-(d*c))/((e*a)-b)
-x=((c-b)*y)/a
+x=(c-(b*y))/a
 
 print("X:",x,"Y:", y)
