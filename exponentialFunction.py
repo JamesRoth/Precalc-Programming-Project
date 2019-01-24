@@ -14,4 +14,4 @@ x=(x3-x1)/(x2-x1)
 
 ans=a*b**x
 
-print(ans)
+print("F(",str(x3),"):"ans)
