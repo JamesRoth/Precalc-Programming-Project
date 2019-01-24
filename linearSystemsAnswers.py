@@ -9,7 +9,10 @@ d=float(input("Enter D (for Ax + By = C):"))
 e=float(input("Enter E (for Ax + By = C):"))
 f=float(input("Enter F (for Ax + By = C):"))
 
+#solving for x
 y=((f*a)-(d*c))/((e*a)-(d*b))
+
+#solving for y
 x=(c-(b*y))/a
 
 print("X:",x,"Y:", y)
