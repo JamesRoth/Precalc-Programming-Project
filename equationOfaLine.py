@@ -7,12 +7,15 @@ y1 = float(input("Enter y1: "))
 x2 = float(input("Enter x2: "))
 y2 = float(input("Enter y2: "))
 
+#horizontal line
 if y1-y2 == 0:
     print("y =", y1)
 
+#vertical line
 elif x1-x2 == 0:
     print("x =", x1)
 
+#normal cases
 else:
     slope = float((y1-y2)/(x1-x2))
     
