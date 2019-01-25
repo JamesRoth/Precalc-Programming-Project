@@ -10,7 +10,7 @@ y2 = float(input("Enter y2: "))
 slope = float((y1-y2)/(x1-x2))
 
 if y1-y2 == 0:
-    print("y =" y1)
+    print("y =", y1)
 
 elif x1-x2 == 0:
     print("x =", x1)
