@@ -14,7 +14,7 @@ b = format(y1-(slope*x1),".3f")
 slope = format(slope, ".3f")
 
 slope = str(slope) + "X"
-if b >= 0:
+if int(b) >= 0:
     print("The equation is Y =", slope, "+", b)
 
 if b < 0:
