@@ -25,6 +25,6 @@ else:
     #more formatting, so it says - b if b is > 0 not + -b
     if float(b) >= 0:
     print("The equation is Y =", slope, "+", b)
-
+    
     if float(b) < 0:
     print("The equation is y =", slope, b)
