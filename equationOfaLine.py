@@ -17,5 +17,5 @@ slope = str(slope) + "X"
 if int(b) >= 0:
     print("The equation is Y =", slope, "+", b)
 
-if b < 0:
+if int(b) < 0:
     print("The equation is Y =", slope, b)
