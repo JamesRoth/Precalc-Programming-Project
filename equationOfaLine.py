@@ -7,8 +7,8 @@ y1 = float(input("Enter y1: "))
 x2 = float(input("Enter x2: "))
 y2 = float(input("Enter y2: "))
 
-slope = (y1-y2)/(x1-x2)
+slope = format((y1-y2)/(x1-x2),".3f")
 
-b = y1-(slope*x1)
+b = format(y1-(slope*x1),".3f")
 
 print("The equation is Y =", slope, "*x +", b)
