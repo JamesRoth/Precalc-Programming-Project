@@ -9,4 +9,4 @@ y2 = float(input("Enter y2: "))
 
 slope = (y1-y2)/(x1-x2)
 
-= y1-(slope*x1)
+b = y1-(slope*x1)
