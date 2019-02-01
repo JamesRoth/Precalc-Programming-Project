@@ -12,6 +12,8 @@ while correctAns < 5:
     
     question = str("What is",num1,"*",num2)
     
+    print(question)
+    
     guess = int(input(question))
     if guess == ans:
         correctAns+=1
