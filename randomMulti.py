@@ -18,4 +18,4 @@ while correctAns < 5: #loop until 5 correct answers are guessed
     if guess == ans:
         correctAns+=1
     else:
-        print("Incorrect! The correct answer is: ", +str(ans))
+        print("Incorrect! The correct answer is: "+str(ans))
