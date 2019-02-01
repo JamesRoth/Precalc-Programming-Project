@@ -5,6 +5,9 @@
 from random import randint
 correctAns = 0
 
-while correctAns > 4:
-num1 = randint(1,10)
-num2 = 
+while correctAns < 5:
+    num1 = randint(1,10)
+    num2 = randint(1,10)
+    ans = num1*num2
+    
+    guess = int(input("What is", num1, "*", num2))
