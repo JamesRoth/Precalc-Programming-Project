@@ -12,7 +12,7 @@ while correctAns < 5: #loop until 5 correct answers are guessed
     #correct answer
     ans = num1*num2
     
-    guess = int(input("What is"+str(num1)+"*"+str(num2)))
+    guess = int(input("What is "+str(num1)+"*"+str(num2)))
     if guess == ans:
         correctAns+=1
     else:
