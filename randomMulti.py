@@ -12,7 +12,9 @@ while correctAns < 5: #loop until 5 correct answers are guessed
     #correct answer
     ans = num1*num2
     
+    #asking the user to give the answer to the multiplication problem
     guess = int(input("What is "+str(num1)+"*"+str(num2)))
+    #did they get it right?
     if guess == ans:
         correctAns+=1
     else:
