@@ -8,7 +8,7 @@ correctAns = 0
 while correctAns < 5: #loop until 5 correct answers are guessed
     #RNG
     num1 = randint(1,10)
-    num2 = andint(1,10)
+    num2 = randint(1,10)
     #correct answer
     ans = num1*num2
     
