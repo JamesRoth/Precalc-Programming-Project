@@ -10,8 +10,9 @@ while correctAns < 5:
     num2 = randint(1,10)
     ans = num1*num2
     
-    print(num1,num2)
-    guess = int(input("What is", num1))
+    question = str("What is",num1,"*",num2)
+    
+    guess = int(input(question))
     if guess == ans:
         correctAns+=1
     else:
