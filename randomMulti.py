@@ -13,3 +13,5 @@ while correctAns < 5:
     guess = int(input("What is", num1, "*", num2))
     if guess == ans:
         correctAns+=1
+    else:
+        print("Incorrect")
