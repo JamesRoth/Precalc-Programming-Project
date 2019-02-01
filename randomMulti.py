@@ -11,7 +11,7 @@ while correctAns < 5:
     ans = num1*num2
     
     print(num1,num2)
-    guess = int(input("What is", str(num1), "*", str(num2)))
+    guess = int(input("What is", num1))
     if guess == ans:
         correctAns+=1
     else:
