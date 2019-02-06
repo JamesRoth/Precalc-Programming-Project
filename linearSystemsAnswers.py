@@ -15,4 +15,4 @@ y=((f*a)-(d*c))/((e*a)-(d*b))
 #solving for y
 x=(c-(b*y))/a
 
-print("X:",x,"Y:",y)
+print("X:",round(x, 3),"Y:",round(y, 3))
